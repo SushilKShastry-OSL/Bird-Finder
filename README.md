@@ -2,7 +2,7 @@
 Uses image processing technique to detect the bird
 
 Please download the image model and voice model from the link below:
-Image model: https://drive.google.com/file/d/1gFpDGlmdJpyTYBqWHbsrL3wsHIwf84Xx/view?usp=sharing
+Image model: https://drive.google.com/file/d/1gFpDGlmdJpyTYBqWHbsrL3wsHIwf84Xx/view?usp=sharing\n
 Voice model: https://drive.google.com/file/d/16Ug6D2LDwwluXxENuOCHQxkWl6acrquA/view?usp=sharing
 
 1. Place thse models in Bird/FindBird/ directory
