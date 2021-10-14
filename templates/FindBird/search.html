@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>BirdFinder-Search</title>
+	<link rel="icon"
+		href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqZWxK-tJCd3NqUAREwXdWXwXq7N27K1ugng&usqp=CAU"
+		type="image/icon type">
+	<link rel="stylesheet" href="{% static 'css/style2.css' %}">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<div class="w3-padding w3-xxlarge">
+		<a href="{% url 'IndexPage' %}" class="fa fa-home"></a>
+	</div>
+
+	<div class="wrapper">
+		<form action='{% url "find" %}' method="get">
+		<input type="text" class="input" placeholder="Which bird are you looking for?" name="query" id="query">
+		<button type="submit" ><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+</body>
+
+</html>
